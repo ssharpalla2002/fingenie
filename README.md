@@ -1,4 +1,4 @@
-# 🧠 FinGenie — RAG AI Financial Assistant
+# FinGenie — RAG AI Financial Assistant
 
 FinGenie is an AI-powered financial assistant that leverages **Retrieval-Augmented Generation (RAG)** to answer finance-related queries and generate structured documents.  
 It integrates **LangGraph** for workflow orchestration and **LangChain** for retrieval, embeddings, and agent reasoning.  
