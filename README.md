@@ -28,7 +28,7 @@ It integrates **LangGraph** for workflow orchestration and **LangChain** for ret
 
 ## Getting Started
 
-### Using pyenv and uv
+Using pyenv and uv
 
 ```zsh
 brew update
