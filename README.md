@@ -1,15 +1,28 @@
-# FinGenie: RAG AI Agent
+# 🧠 FinGenie — RAG AI Financial Assistant
 
-## Overview
-
-LangGraph is a Python framework for designing and managing the flow of tasks in your application using graph structures. This course demonstrates LangGraph concepts through step-by-step exercises, agent implementations, and Jupyter notebooks.
+FinGenie is an AI-powered financial assistant that leverages **Retrieval-Augmented Generation (RAG)** to answer finance-related queries and generate structured documents.  
+It integrates **LangGraph** for workflow orchestration and **LangChain** for retrieval, embeddings, and agent reasoning.  
 
 ---
 
-**Notable Directories:**
-- **Agents/**: Python scripts for agents such as Retrieval-Augmented Generation (RAG) and document drafting.
-- **Exercises/**: Jupyter notebooks for each exercise
-- **Graphs/**: Notebooks demonstrating LangGraph patterns
+## Features
+
+- Intelligent financial query answering with RAG  
+- Automated document generation from retrieved data  
+- Modular LangGraph-based agent workflows  
+- Vector search via ChromaDB for efficient information retrieval   
+
+---
+
+## Tech Stack
+
+- **Python 3.12+**  
+- [LangGraph](https://github.com/langchain-ai/langgraph) – graph-based workflow engine  
+- [LangChain](https://www.langchain.com/) – LLM orchestration framework  
+- **ChromaDB** – vector database for embeddings  
+- **OpenAI API** – LLM integration  
+- **python-dotenv** – environment configuration  
+- **JupyterLab** – interactive development & demos  
 
 ---
 
@@ -87,14 +100,6 @@ jupyter lab
 
 ---
 
-## Usage
-
-- Open and run Jupyter notebooks in `Graphs/` and `Exercises/` for hands-on practice and exploration.
-- Run agent scripts in `Agents/` for more advanced experiments.
-- All code is designed to work in a local, isolated Python environment managed by pyenv and uv.
-
----
-
 ## Requirements
 
 Core dependencies (see `requirements.txt` for full list):
@@ -115,3 +120,4 @@ Install all dependencies with:
 uv pip install -r requirements.txt
 ```
 
+---
